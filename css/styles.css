@@ -175,12 +175,10 @@ body {
 }
 /*banner*/
 
-.banner-box {
-    background: var(--banner-bg-color);
-    height: 600px;
-}
 .banner-section {
     padding-top: 200px;
+    padding-bottom: 200px;
+    background: var(--banner-bg-color);
 }
 .banner-title {
     font-weight: 900;
@@ -192,7 +190,6 @@ body {
     color: var(--banner-title-color);
 
     max-width: 696px;
-    max-height: 120px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -229,14 +226,13 @@ body {
 .hero-list {
     display: flex;
 }
-
 .hero-item {
     max-width: 270px;
 }
-
 .hero-list .hero-item:not(:first-child) {
     margin-left: 30px;
 }
+
 .hero-title {
     font-weight: 700;
     font-size: 14px;
